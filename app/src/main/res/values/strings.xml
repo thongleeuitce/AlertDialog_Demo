@@ -6,4 +6,8 @@
     <string name="toast_when_click_OK">You clicked on OK !</string>
     <string name="toast_when_click_YES">You clicked on YES !</string>
     <string name="toast_when_click_NO">You clicked on NO !</string>
+    <string name="toast_when_click_SKIP">You clicked on SKIP !</string>
+    <string name="alertdialog">Alert Dialog</string>
+    <string name="custom_alertdialog1">Custom Alert Dialog 1</string>
+    <string name="custom_alertdialog2">Custom Alert Dialog 2</string>
 </resources>

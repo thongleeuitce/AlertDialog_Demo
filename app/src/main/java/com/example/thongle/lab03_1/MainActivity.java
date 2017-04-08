@@ -1,5 +1,6 @@
 package com.example.thongle.lab03_1;
 
+import android.Manifest;
 import android.content.DialogInterface;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
@@ -32,6 +33,12 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, R.string.toast_when_click_YES, Toast.LENGTH_SHORT).show();
             }
 
+        });
+        alertDialog.setButton(DialogInterface.BUTTON_NEUTRAL, "SKIP", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(MainActivity.this, R.string.toast_when_click_SKIP, Toast.LENGTH_SHORT).show();
+            }
         });
         alertDialog.show();
     }
