@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.thongle.alertdialog">
+    package="com.example.thongle.lab03_1">
 
     <application
         android:allowBackup="true"

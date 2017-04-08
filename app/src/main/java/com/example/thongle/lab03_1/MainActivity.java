@@ -1,4 +1,4 @@
-package com.example.thongle.alertdialog;
+package com.example.thongle.lab03_1;
 
 import android.content.DialogInterface;
 import android.os.Build;
@@ -20,11 +20,18 @@ public class MainActivity extends AppCompatActivity {
         alertDialog.setTitle(R.string.title_alert_dialog);
         alertDialog.setMessage(getResources().getString(R.string.content_alert_dialog));
         alertDialog.setIcon(R.mipmap.ic_launcher);
-        alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "OK", new DialogInterface.OnClickListener() {
+        alertDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "NO", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(MainActivity.this, R.string.toast_when_click_OK, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, R.string.toast_when_click_NO, Toast.LENGTH_SHORT).show();
             }
+        });
+        alertDialog.setButton(DialogInterface.BUTTON_POSITIVE, "YES", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(MainActivity.this, R.string.toast_when_click_YES, Toast.LENGTH_SHORT).show();
+            }
+
         });
         alertDialog.show();
     }

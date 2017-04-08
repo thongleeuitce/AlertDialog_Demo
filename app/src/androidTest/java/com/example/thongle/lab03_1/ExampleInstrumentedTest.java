@@ -1,4 +1,4 @@
-package com.example.thongle.alertdialog;
+package com.example.thongle.lab03_1;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.thongle.alertdialog", appContext.getPackageName());
+        assertEquals("com.example.thongle.lab03_1", appContext.getPackageName());
     }
 }

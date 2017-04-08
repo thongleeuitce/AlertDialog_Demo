@@ -1,4 +1,4 @@
-package com.example.thongle.alertdialog;
+package com.example.thongle.lab03_1;
 
 import org.junit.Test;
 

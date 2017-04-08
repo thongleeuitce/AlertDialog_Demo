@@ -1,6 +1,9 @@
 <resources>
-    <string name="app_name">AlertDialog</string>
+    <string name="app_name">Lab03_1</string>
+    <string name="label_lab03_1">Lab03_1</string>
     <string name="title_alert_dialog">Alert Dialog Demo</string>
     <string name="content_alert_dialog">Thuc hanh Alert Dialog voi 1 Button !</string>
     <string name="toast_when_click_OK">You clicked on OK !</string>
+    <string name="toast_when_click_YES">You clicked on YES !</string>
+    <string name="toast_when_click_NO">You clicked on NO !</string>
 </resources>
