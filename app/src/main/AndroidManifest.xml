@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CustomAlertDialog1Activity">
+
+        </activity>
+        <activity android:name=".CustomAlertDialog2Activity">
+
+        </activity>
     </application>
 
 </manifest>

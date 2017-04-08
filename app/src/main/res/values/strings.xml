@@ -10,4 +10,10 @@
     <string name="alertdialog">Alert Dialog</string>
     <string name="custom_alertdialog1">Custom Alert Dialog 1</string>
     <string name="custom_alertdialog2">Custom Alert Dialog 2</string>
+    <string name="sign_in">Sign in</string>
+    <string name="dialog">Dialog</string>
+    <string name="cancel">Cancel</string>
+    <string name="username">Username:</string>
+    <string name="password">Password: </string>
+    <string name="enter_name">Enter Your Name:</string>
 </resources>
